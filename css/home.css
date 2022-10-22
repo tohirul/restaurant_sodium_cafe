@@ -1,0 +1,72 @@
+/* ----- Banner Section ----- */
+.banner__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 5rem;
+}
+
+.banner__left__wrapper {
+    max-width: 360px;
+}
+
+.banner__imgWrapper {
+    width: 80%;
+    max-width: 400px;
+
+    margin: 0 auto;
+}
+
+.banner__heading {
+    line-height: 1.4em;
+
+    margin-bottom: 1.5rem;
+
+    color: var(--black-1);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.banner__info {
+    margin-bottom: 1.5rem;
+
+    color: var(--black-2);
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.button__wrapper {
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .banner__wrapper {
+        flex-direction: row;
+    }
+    .banner__left {
+        flex: 3;
+    }
+    .banner__right {
+        flex: 4;
+    }
+    .banner__heading {
+        font-size: 3.6rem;
+        margin-bottom: 2rem;
+        text-align: left;
+    }
+    .banner__info {
+        margin-bottom: 2rem;
+        text-align: left;
+        font-size: 1.8rem;
+    }
+    .button__wrapper {
+        text-align: left;
+    }
+    .banner__imgWrapper {
+        min-width: none;
+        width: 100%;
+    }
+}

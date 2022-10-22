@@ -161,7 +161,7 @@ footer {
 
 .footer__socials svg {
     width: 20px;
-    color: var (--black-2);
+    color: var(--black-2);
 }
 
 .footer__text__title {
@@ -221,9 +221,11 @@ footer {
 
 #copyright {
     padding: 1rem 0;
+    background-color: black;
 }
 
 .copyright__text {
+    color: var(--green-2);
     font-size: 1.4rem;
     text-align: center;
 }

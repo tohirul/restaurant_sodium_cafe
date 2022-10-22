@@ -23,3 +23,16 @@ navIconEl?.addEventListener("click", navOpen);
 navCloseEl?.addEventListener("click", navClose);
 navBgOverlayEl?.addEventListener("click", navClose);
 body[0].addEventListener("click", check);
+
+/* ----- Banner ----- */
+
+// AOS CONFIG
+AOS.init({
+    offset: 200,
+    delay: 150,
+    duration: 400,
+    easing: "ease",
+    once: false,
+    mirror: false,
+    anchorPlacement: "top-bottom",
+});
